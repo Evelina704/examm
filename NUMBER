@@ -1,0 +1,27 @@
+set.package com.company;
+
+import java.util.HashSet;
+
+            public class Main {
+
+                public static void main(String[] args) {
+                    // write your code here
+                    for (int i = 10; i <= 100; i = i + 10) {
+                        HashSet<Integer> set = new HashSet<Integer>();
+                        set.add(i);
+
+                        System.out.println(i);
+                    }
+                }
+
+        for (int a = 1; a <= 100; a++) {
+            if (a % 2 == 0 && a % 10 != 0) {
+                HashSet<Integer> set = new HashSet<Integer>();
+                set.add(a);
+                System.out.println(a);
+            }
+
+        }
+    }
+}
+
